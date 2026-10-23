@@ -1,0 +1,8 @@
+SAO UI 0.21.0 / Minecraft 26.2 + 26.3
+SHA256: 7509b0efe2f2acb9b83316651e4f368232b93d56cfa213397ce10ad654141a37
+Exact same root JAR passed both Minecraft targets; selected runtime origin: NESTED/saoui.
+59 JUnit tests per target; 12 functional client GameTest suites plus bundle identity checks per target.
+New suite: type-specific summaries, native left-button HUD/container editor dragging, numeric validation, resize, nested drafts, Cancel/Apply/outer Save/disk persistence, source folding, reading position under native server durability updates. Chinese resources were reloaded during new UI screenshots, then restored.
+Existing suites include real TCP server enchantment/lore samples, settings/effects, native inventory/crafting/container conservation, modules and HUD/potion behavior.
+The layout preview is schematic for container/backpack placement; native container geometry and inventory protocols remain authoritative. Lore remains item-level supplied text; no fuzzy per-enchantment attribution or hidden-script reconstruction.
+Standalone dedicated-server smoke and optional IPN/AppleSkin-specific runs were not repeated. No claim of live MiragEdge 0.21 testing.
