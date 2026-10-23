@@ -1,3 +1,5 @@
+# Archived release files retain their exact published bytes.
+releases/** -text whitespace=cr-at-eol
 *.jar -text
 *.zip -text
 *.png -text
