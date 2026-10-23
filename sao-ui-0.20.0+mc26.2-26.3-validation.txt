@@ -1,0 +1,9 @@
+SAO UI 0.20.0: server item descriptions
+SHA256: 30040a2853287a9152c7001a3e8f6f9506e70eabca0d5d6c24afabd651093f64
+The exact same root JAR loaded in Minecraft 26.2 and 26.3. Both selected runtime origins were NESTED/saoui.
+Both projects passed 56 JUnit tests and all 11 functional client GameTest suites plus the bundle identity check.
+New regression: an in-process DedicatedServer bound to TCP loopback sends three sanitized real MiragEdge/Aiyatsbus equipment fixtures using native item component and registry packets. The client shows the current item's 50% durability description, knockback description and multiple-arrow description without modifying the stacks. The independent lore switch, cancelled settings, exclusion of decorative unenchanted lore and explicit bounded output also pass.
+Screenshots from the final artifact were inspected in both Minecraft versions and preserved in outputs/screenshots.
+Existing settings, effects, colors, native inventory/armor/crafting/container transfers, modules and HUD/potion tests also pass. Standalone headless server smoke and optional IPN/AppleSkin-specific runs were not repeated; their integration code is unchanged.
+Live server inspection was performed using the preceding 0.19 diagnostic client. The 0.20 code is verified against the captured fixtures through native TCP in both versions; the user's live game has not been silently restarted or replaced.
+This feature displays item lore as a separate source-labeled block. It does not infer hidden script formulas, split general item lore into individual enchantment facts, or apply a catalogue's maximum-level numerical description to a lower-level item. Native holders still supply actual enchantment names and levels. No new packets, reflection, bundled plugins or production test fixtures.
