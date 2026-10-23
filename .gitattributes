@@ -1,0 +1,7 @@
+*.jar -text
+*.zip -text
+*.png -text
+sao-ui-*-validation.txt -text whitespace=cr-at-eol
+SAO-UI-*-使用说明.md -text
+README.md text eol=lf
+.gitattributes text eol=lf

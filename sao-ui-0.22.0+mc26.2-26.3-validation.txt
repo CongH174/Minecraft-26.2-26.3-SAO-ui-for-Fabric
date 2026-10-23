@@ -1,0 +1,9 @@
+SAO UI 0.22.0: mirrored HUD, extensible styles, useful profile and shallow layout entry
+SHA256: da6e57c2b7335beb056d39133374d444a9917a5370074ce507d21f2f7a4ce9ea
+Exact same delivered root JAR loaded in Minecraft 26.2 and 26.3; selected runtime origin: NESTED/saoui.
+Each target passed 63 JUnit tests, 15 functional client GameTest suites, and the bundle identity check.
+New acceptance: actual style dropdown mouse/keyboard, outside-click isolation, both edges and styles, absorption/poison/wither overlays, mirrored margins, default effect-icon avoidance and explicit-position priority, right HUD editor drag/resize and nested cancellation; saved enum/direction round trip; live native profile backpack/equipment updates; first-row global container layout Apply/Save/Cancel without manufacturing overrides.
+Lore toggle regression reproduced against the released unchanged 0.21.1 root: clicking changed its draft but left the label unchanged. The fix visibly updates ON/OFF in both languages and passes save/disk/cancel checks.
+93 independent explanatory entries in zh_cn/en_us; actual settings controls checked: {"26.2": {"zh_cn": 321, "en_us": 321}, "26.3": {"zh_cn": 321, "en_us": 321}} plus both dropdown options. Original native inventory/crafting/container, TCP enchantment/lore, settings-draft and HUD suites also pass.
+Mirroring uses positive destination rectangles and reversed texture UVs to preserve face winding; screenshot QA caught and removed the culled negative-scale implementation. Final screenshots were inspected on both target games. Pixel checks additionally require visible green/gold bars in all four style/direction combinations.
+Production archive contains no tests, fixtures, optional dependencies or custom loader. Optional IPN/AppleSkin-specific runs and standalone dedicated-server smoke were not repeated. No claim of user-instance restart or live-server deployment.
