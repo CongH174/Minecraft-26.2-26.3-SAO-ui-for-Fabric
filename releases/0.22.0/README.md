@@ -2,7 +2,7 @@
 
 [返回版本索引](../README.md) · [项目首页](../../README.md)
 
-**当前推荐版本。** [GitHub Release 与下载附件](https://github.com/CongH174/Minecraft-26.2-26.3-SAO-ui-for-Fabric/releases/tag/v0.22.0)。
+历史归档版本。建议优先使用 [0.23.1](../0.23.1/README.md)。 [GitHub Release 与下载附件](https://github.com/CongH174/Minecraft-26.2-26.3-SAO-ui-for-Fabric/releases/tag/v0.22.0)。
 
 同一个 JAR 支持 Minecraft **26.2 / 26.3**，安装对应版本的 Fabric API。完整源码以 ZIP 保存，解压后包含两个游戏版本的适配工程。
 

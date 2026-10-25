@@ -6,7 +6,8 @@
 
 | 模组版本 | 状态 | Minecraft | 文件与说明 |
 | --- | --- | --- | --- |
-| **0.22.0** | **最新推荐** | 26.2 / 26.3 | [打开目录](0.22.0/README.md) · [Release](https://github.com/CongH174/Minecraft-26.2-26.3-SAO-ui-for-Fabric/releases/tag/v0.22.0) |
+| **0.23.1** | **最新推荐** | 26.2 / 26.3 | [打开目录](0.23.1/README.md) · [Release](https://github.com/CongH174/Minecraft-26.2-26.3-SAO-ui-for-Fabric/releases/tag/v0.23.1) |
+| 0.22.0 | 历史归档 | 26.2 / 26.3 | [打开目录](0.22.0/README.md) · [Release](https://github.com/CongH174/Minecraft-26.2-26.3-SAO-ui-for-Fabric/releases/tag/v0.22.0) |
 | 0.21.0 | 历史归档 | 26.2 / 26.3 | [打开目录](0.21.0/README.md) |
 | 0.20.0 | 历史归档 | 26.2 / 26.3 | [打开目录](0.20.0/README.md) |
 
