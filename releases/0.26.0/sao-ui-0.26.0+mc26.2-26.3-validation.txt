@@ -1,0 +1,7 @@
+SAO UI 0.26.0: independent gamma override
+SHA256: 67933d68272febddffcf74de02879fb726dc149901eeb395fea19145ea3f4a9c
+The exact same root JAR loaded in Minecraft 26.2 and 26.3. Selected runtime origin NESTED/saoui.
+77 passing unit tests per target. Targeted GameTests: GammaOverrideGameTest and UniversalBundleGameTest.
+Verified default off; independent native G binding registered in vanilla controls; native rebind to H, old-key deactivation and no repeated toggling from a single press; genuine zero-sky-light room; real native LightmapRenderStateExtractor output brightness 16 while active; Options.gamma is retained, including brightness edits made while active; disabling resumes the current native brightness; no night-vision potion effect; the K menu remains independent, UI typing does not toggle the feature; disconnect resets it.
+Native off/on/restored screenshots inspected. Lightmap gamma is overridden during client extraction only. Production code does not change native options, potion effects, block lighting or server state, and contains no reflection. Vanilla lightmap rendering is the verified visual path. Custom shader pipelines were not tested.
+The artifact excludes test classes, fixtures and optional mod implementations. Validation was restricted to this feature and same-JAR dual-version load. Unrelated mod-compatibility and UI suites were not rerun. No user-instance installation or GitHub publication is claimed.

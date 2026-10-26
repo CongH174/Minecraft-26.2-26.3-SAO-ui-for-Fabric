@@ -1,0 +1,10 @@
+67933d68272febddffcf74de02879fb726dc149901eeb395fea19145ea3f4a9c  sao-ui-0.26.0+mc26.2-26.3.jar
+122f13cdd80750e6a50ebda111625642238bd0cb119ed3fc3d1f445bb262e251  sao-ui-0.26.0+mc26.2-26.3-source.zip
+f7a3ae015bce9eea32f70e36890691e48278d1dfa3d00cbba67f5abad550cb79  sao-ui-0.26.0+mc26.2-26.3-validation.txt
+d3a3e9508250aefb713a59d3d4223f341a0bda3ce3ec36bb34b6cbf43322675d  SAO-UI-0.26.0-使用说明.md
+a8e37950fc759dc5e272124e94f2b0d69119281b4b1fb2aa828004025a6aecde  screenshots/0.26.0-mc26.2-sao-gamma-off.png
+554dae73b18549b2029d9ddc3fa4ec1b7764074d7e6cbfa646cde99719a0ae83  screenshots/0.26.0-mc26.2-sao-gamma-on.png
+ec07e5a4aa0d1d75fc2ed285a11f440074d796c6df83fe7267458248f76340df  screenshots/0.26.0-mc26.2-sao-gamma-restored.png
+079fdf00dd7ff8f28112edee4bc839aafe5a12ed5068f62dae01df1bfcda17e9  screenshots/0.26.0-mc26.3-sao-gamma-off.png
+d88df2ead4c5d031d143cf99f64b2b54d0dc47dff99c787bf6ef0c28184a645b  screenshots/0.26.0-mc26.3-sao-gamma-on.png
+0d6579a373d99cfcb2dfa00e6c0270dda159b748b2a0e770339ec5a1af3ed6f7  screenshots/0.26.0-mc26.3-sao-gamma-restored.png

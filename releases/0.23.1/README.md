@@ -2,7 +2,7 @@
 
 [返回版本索引](../README.md) · [项目首页](../../README.md)
 
-**当前推荐版本。** [GitHub Release 与全部下载](https://github.com/CongH174/Minecraft-26.2-26.3-SAO-ui-for-Fabric/releases/tag/v0.23.1)。
+历史归档版本；[查看当前推荐版本](../README.md)。 [GitHub Release 与全部下载](https://github.com/CongH174/Minecraft-26.2-26.3-SAO-ui-for-Fabric/releases/tag/v0.23.1)。
 
 同一个 JAR 支持 Minecraft **26.2 / 26.3**。本版包含 AppleSkin 手持食物呼吸预览，以及附魔面板的最高等级预览勾选框。
 
